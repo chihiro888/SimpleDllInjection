@@ -4,7 +4,7 @@
 
 int main(int argc, char* argv[])
 {
-    DWORD pId = 111;
+    DWORD pId = 25764;
     char dllToInject[] = "C:\\Users\\dev\\source\\repos\\SimpleDllInjection\\x64\\Debug\\SimpleDll.dll";
     HANDLE processHandle = OpenProcess(PROCESS_ALL_ACCESS, false, pId);
 
